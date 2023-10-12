@@ -190,8 +190,6 @@ header {
     -o-transition: all .3;
 }
 
-}
-
 .hero .box-hero .box:nth-child(2) img {
     width: 100%;
     margin-top: 0;
@@ -614,13 +612,17 @@ header {
 
 @media screen and (max-width:768px){
 
+    .hero{
+        min-height: 80vh;
+    }
+
     .hero .box-hero {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2. 1fr);
         row-gap: 10px;
     }
     
-    .hero .box-hero .box:nth-child(1) button{
+    .hero .box-hero .box:nth-child(1) a{
         margin-bottom: 40px;
     }
 
@@ -652,8 +654,13 @@ header {
 }
 
 @media screen and (max-width:575px) {
+
     .hero .box-hero .box:nth-child(1) h1 {
         font-size: 18px;
+    }
+
+    .hero .box-hero .box:nth-child(1) a{
+        margin-bottom: 40px;
     }
 
     .comnt{
