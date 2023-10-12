@@ -168,9 +168,12 @@ header {
     margin-bottom: 20px;
     font-weight:100;
 }
-.hero .box-hero .box:nth-child(1) button{
-    width: 180px;
-    height: 50px;
+
+.hero .box-hero .box:nth-child(1) a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
     background-color: #0050b3;
     border: none;
     cursor: pointer;
@@ -178,13 +181,7 @@ header {
     --animate-delay: 0.9s
 }
 
-.hero .box-hero .box:nth-child(1) a{
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-}
-
-.hero .box-hero .box:nth-child(1) button:hover {
+.hero .box-hero .box:nth-child(1) a:hover {
     background-color: #053b7d;
     transition: all .3s ease;
     -webkit-transition: all .3;
